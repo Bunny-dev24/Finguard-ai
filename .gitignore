@@ -1,0 +1,36 @@
+# Python
+__pycache__/
+*.py[cod]
+*.egg-info/
+.pytest_cache/
+.mypy_cache/
+
+# Envs
+venv/
+.venv/
+env/
+
+# Env files (real secrets/config, never commit)
+.env
+.env.local
+.env.*.local
+
+# DB
+*.db
+*.sqlite3
+
+# ML / data artifacts — regenerate with data/generate_data.py and src/ml/train.py
+data/*.parquet
+artifacts/current.parquet
+artifacts/drift_report.html
+
+# Streamlit
+.streamlit/secrets.toml
+
+# Editor / OS
+.DS_Store
+.vscode/
+.idea/
+
+# Logs
+*.log
