@@ -9,6 +9,7 @@ FastAPI · XGBoost / LightGBM · Kafka · SQLAlchemy · Evidently · Streamlit
 [![Python](https://img.shields.io/badge/python-3.11-blue.svg)](https://www.python.org/)
 [![FastAPI](https://img.shields.io/badge/FastAPI-009688.svg?logo=fastapi&logoColor=white)](https://fastapi.tiangolo.com/)
 [![Tests](https://img.shields.io/badge/tests-14%20passing-brightgreen.svg)](#testing)
+[![License: MIT](https://img.shields.io/badge/license-MIT-yellow.svg)](LICENSE)
 
 </div>
 
@@ -254,4 +255,8 @@ not squeezing out the last percentage point on invented data.
   story, fine for a demo, not for production throughput.
 - Synthetic data — real fraud has correlations no synthetic generator
   fully captures.
+
+## License
+
+MIT — see [LICENSE](LICENSE). Use it, fork it, ship it.
 
